@@ -14,5 +14,9 @@ O objetivo deste repositório é entregar apresentar e guardar a aplicação da 
     - Criei uma subpasta chamada **`inc`** dentro de **`/var/www`** para armazenar o arquivo **`dbinfo.inc`**, que contém informações de conexão com o banco de dados.
     - Dentro da pasta **`/var/www/html`**, criei o arquivo **`SamplePage.php`**, que contém a lógica para interagir com o banco de dados e exibir registros em uma tabela HTML.
     - O arquivo **`SamplePage.php`** incluiu a inclusão do arquivo **`dbinfo.inc`** para acessar as informações de conexão com o banco de dados.
+**A página web contém:**
+    - 4 inputs: Nome = texto, ENDEREÇO = texto, TELEFONE = número, TERMO ACEITO ? = booleano
+    - 1 submit: o botão que vai adicionar as informações dos inputs na tabela USER
+    - 1 Tabela com as colunas ID(ID), NOME(NAME), ENDEREÇO(ADDRESS), TELEFONE(PHONE) e TERMO ACEITO(TERMS)
 
 Após esses passos, eu consegui criar a minha aplicação web integrada a um banco de dados, com o Amazon RDS como banco de dados e o Amazon EC2 como servidor web. Os arquivos **`dbinfo.inc`** e **`SamplePage.php`** foram configurados corretamente nas pastas apropriadas, permitindo que a minha aplicação web se conecte ao banco de dados e interaja com os registros.
