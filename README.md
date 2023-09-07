@@ -20,3 +20,6 @@ O objetivo deste repositório é entregar apresentar e guardar a aplicação da 
     - 1 Tabela com as colunas ID(ID), NOME(NAME), ENDEREÇO(ADDRESS), TELEFONE(PHONE) e TERMO ACEITO(TERMS)
 
 Após esses passos, eu consegui criar a minha aplicação web integrada a um banco de dados, com o Amazon RDS como banco de dados e o Amazon EC2 como servidor web. Os arquivos **`dbinfo.inc`** e **`SamplePage.php`** foram configurados corretamente nas pastas apropriadas, permitindo que a minha aplicação web se conecte ao banco de dados e interaja com os registros.
+
+# Link do vídeo demonstrando as máquinas/serviços em execução no console da AWS
+https://drive.google.com/file/d/1sWu-YJgPzdB7GWYVDpTX6pVn9T9v6nIq/view?usp=drive_link
